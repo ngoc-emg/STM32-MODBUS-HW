@@ -777,7 +777,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D4-5,D8,D14-16,#PWR15-20,K1-3,Q1-3,R7-15",
     "variants": []
   },
   "sheets": [
@@ -796,6 +796,10 @@
     [
       "02a3fa09-27d2-4506-b97b-7e8499346d20",
       "General purpose"
+    ],
+    [
+      "94f7049f-cc51-468b-ad43-b5dce32eb896",
+      "output"
     ]
   ],
   "text_variables": {},

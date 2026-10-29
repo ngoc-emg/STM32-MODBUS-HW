@@ -497,7 +497,7 @@
 		)
 	)
 	(sheet
-		(at 149.86 83.82)
+		(at 8.89 215.9)
 		(size 50.8 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -513,7 +513,7 @@
 		)
 		(uuid "02a3fa09-27d2-4506-b97b-7e8499346d20")
 		(property "Sheetname" "General purpose"
-			(at 149.86 83.1084 0)
+			(at 8.89 215.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -524,7 +524,7 @@
 			)
 		)
 		(property "Sheetfile" "General purpose.kicad_sch"
-			(at 149.86 133.9346 0)
+			(at 8.89 266.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -589,7 +589,53 @@
 		)
 	)
 	(sheet
-		(at 35.179 83.312)
+		(at 217.17 67.31)
+		(size 48.26 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "94f7049f-cc51-468b-ad43-b5dce32eb896")
+		(property "Sheetname" "output"
+			(at 217.17 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 217.17 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB v1.1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 155.829 83.312)
 		(size 33.02 54.229)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -605,7 +651,7 @@
 		)
 		(uuid "980e53ea-7d3f-426f-b014-a2ad45045098")
 		(property "Sheetname" "MPU"
-			(at 35.179 82.6004 0)
+			(at 155.829 82.6004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -616,7 +662,7 @@
 			)
 		)
 		(property "Sheetfile" "MPU.kicad_sch"
-			(at 35.179 138.1256 0)
+			(at 155.829 138.1256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
