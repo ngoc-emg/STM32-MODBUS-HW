@@ -1,0 +1,53 @@
+# ==========================================
+# KiCad - File tạm, backup và tự động lưu
+# ==========================================
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*.tmp
+
+# File khóa khi đang mở KiCad (Lock files)
+*.lck
+*.lock
+
+# ==========================================
+# Cấu hình cá nhân / giao diện người dùng
+# (Không commit file này vì mỗi màn hình/máy tính sẽ lưu vị trí cửa sổ, zoom khác nhau)
+# ==========================================
+*.kicad_prl
+
+# Cache và quy tắc tạm thời
+fp-info-cache
+*.kicad_dru
+
+# ==========================================
+# Báo cáo kiểm tra lỗi (DRC / ERC)
+# ==========================================
+*.rpt
+
+# ==========================================
+# Thư viện cứu hộ / Cache của KiCad 5 trở về trước (Legacy)
+# ==========================================
+*-cache.lib
+*-rescue.lib
+
+# ==========================================
+# File gia công sản xuất (TÙY CHỌN)
+# ==========================================
+# Nếu bạn tạo thư mục xuất Gerber / Drill / BOM riêng:
+# Thường nên bỏ qua, chỉ xuất ra khi cần đặt mạch JLCPCB/PCBWay.
+# Nếu muốn đẩy Gerber lên Git để lưu trữ thì thêm dấu '#' phía trước.
+gerber/
+gerbers/
+plots/
+production/
+fab/
+*.drl
+*.gbr
+
+# File mô phỏng SPICE (nếu có xuất log)
+*.raw
+*.out
